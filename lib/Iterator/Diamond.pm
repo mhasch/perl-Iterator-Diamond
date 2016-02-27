@@ -106,6 +106,11 @@ security hole should be fixed. Iterator::Diamond does this by
 providing a decent iterator that behaves just like C<< <> >>, but with
 safe semantics.
 
+If your perl is v5.22 or newer, and your script needs the diamond
+iterator just inside a while loop condition, you can replace C<< <> >>
+by C<<< <<>> >>> to get similar security.  Note, however, that a file
+name of C<< '-' >> can not be interpreted as STDIN with that construct.
+
 =head1 FUNCTIONS
 
 =head2 new
@@ -283,7 +288,8 @@ This reads all remaining lines:
 
 =head1 SEE ALSO
 
-L<Iterator::Files>, open() in L<perlfun>, L<perlopentut>.
+L<Iterator::Files>, open() in L<perlfun>, L<perlopentut>,
+I/O Operators in L<perlop>.
 
 =head1 AUTHOR
 
