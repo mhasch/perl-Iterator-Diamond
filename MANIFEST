@@ -13,6 +13,5 @@ t/12-noargs.t
 t/20-user.t
 t/30-edit.t
 t/31-i_option.t
+t/32-diagnostics.t
 Makefile.PL
-META.yml
-META.json

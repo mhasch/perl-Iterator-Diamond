@@ -15,6 +15,9 @@ protected from file names that may wreak havoc to your system when
 processed through the magic of the two-argument open that Perl
 normally uses for <>.
 
+Perl as of version 5.22 supports a new double-diamond operator <<>>
+to get similar security.
+
 INSTALLATION
 
 To install this module, run the following commands:
@@ -45,7 +48,7 @@ You can also look for information at:
 
 COPYRIGHT AND LICENCE
 
-Copyright 2008 Johan Vromans
+Copyright 2016,2008 Johan Vromans
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

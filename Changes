@@ -1,5 +1,8 @@
 Revision history for Iterator-Diamond
 
+1.00	2016-02-27
+	- Some more fixes by Martin Becker.
+
 0.04	2012-10-02
         Suggestions by Martin Becker (rt-79486):
         - read from STDIN if @ARGV is empty

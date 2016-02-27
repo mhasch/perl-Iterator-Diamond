@@ -13,7 +13,7 @@ Iterator::Diamond - Iterate through the files from ARGV
 
 =cut
 
-our $VERSION = '0.04';
+our $VERSION = '1.00';
 $VERSION =~ tr/_//d;
 
 =head1 SYNOPSIS
@@ -335,7 +335,7 @@ of two-argument open() and its use in the C<< <> >> operator.
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008 Johan Vromans, all rights reserved.
+Copyright 2016,2008 Johan Vromans, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
